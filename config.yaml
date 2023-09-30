@@ -1,0 +1,31 @@
+baseURL: ""
+languageCode: "pt-BR"
+title: "Matheushog's site"
+theme: "PaperMod"
+
+params:
+  cover:
+    linkFullImages: True
+
+  ShowBreadCrumbs: True
+  ShowReadingTime: True
+  ShowShareButtons: True
+  ShowPostNavLinks: True
+
+  homeInfoParams:
+    Title: "Oi, Hello, Salut."
+
+menu:
+    main:
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: 10
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 20
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 30

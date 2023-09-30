@@ -1,0 +1,57 @@
+baseURL = "https://matheushog.github.io"
+languageCode = "pt-BR"
+title = "Matheushog's site"
+theme = "PaperMod"
+
+[params]
+ShowBreadCrumbs = true
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowToc = true
+UseHugoToc = true
+ShowWordCount = true
+
+  [params.cover]
+  linkFullImages = true
+
+  [params.homeInfoParams]
+  Title = "Oi, Hello, Salut"
+  Content = "Documentação e portifolio de projetos diversos"
+
+[[module.imports]]
+path = "github.com/AlanTanner/pdfjs-hugo-module"
+
+[[module.imports]]
+path = "github.com/adityatelange/hugo-PaperMod"
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 30
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 40
+
+[assets]
+favicon = "/favicon/favicon.ico"
+favicon16x16 = "/favicon/favicon16x16.png"
+favicon32x32 = "/favicon/favicon32x32.png"
+apple_touch_icon = "/favicon/apple_touch_icon.png"
+safari_pinned_tab = "/favicon/safari_pinned_tab.svg"
